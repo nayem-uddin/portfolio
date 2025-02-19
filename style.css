@@ -1,0 +1,199 @@
+:root {
+  --footer-text-color: #08e790;
+}
+/*for modifying the background image*/
+header::before {
+  background-image: url(https://cdn.pixabay.com/photo/2015/06/24/15/45/laptop-820274_640.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  opacity: 0.35;
+}
+header {
+  height: 500px;
+  position: relative;
+}
+#header-txt {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 200px;
+  line-height: 0.3;
+}
+#header-txt h3 {
+  margin-left: 20px;
+  font-family: "Oleo Script", serif;
+  color: #1b628b;
+  font-size: 50px;
+}
+#header-txt h1 {
+  font-family: "Grechen Fuemen", serif;
+  color: #784e5f;
+  font-size: 95px;
+}
+main {
+  margin-top: 50px;
+}
+#about {
+  margin: auto;
+  box-shadow: 0 10px 20px gray;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 2px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.75;
+  font-family: "Atkinson Hyperlegible Next", serif;
+}
+#about img {
+  padding: 0 20px;
+  margin: auto;
+}
+#details h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#details p {
+  margin-top: 5px;
+}
+
+main > h2 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  font-size: 3rem;
+  text-shadow: -2px 5px 5px gray;
+  font-family: "Rowdies", serif;
+}
+#education {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 50px;
+}
+.institution {
+  display: flex;
+  box-shadow: 10px 20px 20px gray;
+  margin: 10px 20px;
+  min-width: 600px;
+  padding: 30px 0;
+}
+.institution img {
+  width: 150px;
+  height: 200px;
+  margin: auto 0 auto 20px;
+}
+.academic-details {
+  margin: auto 20px;
+  padding-top: 10px;
+}
+.academic-details span {
+  font-size: 2rem;
+  font-weight: 1000;
+}
+.institution p,
+span {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.institution p {
+  font-size: 20px;
+}
+#skills {
+  display: flex;
+  text-align: center;
+  overflow-x: auto; /*for horizontally scrolling the inner contents only*/
+}
+#skills img {
+  width: 200px;
+  height: 200px;
+  background-color: #03fc98;
+  padding: 0 10px 10px 10px;
+}
+.lang {
+  margin: 10px;
+  box-shadow: 2px 5px 10px gray;
+  height: fit-content;
+}
+.lang p {
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+.profile {
+  display: flex;
+  border: 1px solid black;
+  height: 50px;
+  margin: 5px;
+}
+.profile img {
+  width: 50px;
+  height: 30px;
+  margin: auto;
+  padding: 0 10px;
+}
+.profile .link-text {
+  background-color: #2e5dbc;
+  width: 100%;
+}
+.profile:hover {
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 10px 10px gray;
+}
+
+.profile:hover .link-text {
+  background-color: #5bee09;
+}
+.profile:hover p {
+  color: darkblue;
+}
+.link-text p {
+  margin: 10px 10px;
+  color: #cdee09;
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+footer {
+  box-sizing: border-box;
+  padding: 20px 0 10px 50px;
+  background-color: #221918;
+  margin-top: 20px;
+}
+footer a,
+address {
+  text-decoration: none;
+  color: var(--footer-text-color);
+  font-size: large;
+}
+footer h4 {
+  color: turquoise;
+  font-family: "Courgette", serif;
+  font-size: 25px;
+  margin: 0 0 10px 0;
+  font-weight: lighter;
+}
+footer p {
+  margin: 7px;
+}
+footer a:hover {
+  color: yellowgreen;
+}
+footer i {
+  color: burlywood;
+}
+footer main {
+  margin-top: 0;
+  margin-left: 20px;
+}
