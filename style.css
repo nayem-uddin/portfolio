@@ -20,8 +20,8 @@ header {
 }
 #header-txt {
   position: absolute;
-  margin-top: 150px;
-  margin-left: 200px;
+  margin-top: 10%;
+  margin-left: 10%;
   line-height: 0.3;
 }
 #header-txt h3 {
