@@ -21,8 +21,11 @@
   }
 }
 @media screen and (max-width: 700px) {
-  body > nav a {
+  body > nav {
     display: block;
+  }
+  body > nav a {
+    display: table;
     background-color: rgb(63, 64, 73);
     width: 95%;
     margin: 7px auto;

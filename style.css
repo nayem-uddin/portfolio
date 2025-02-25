@@ -2,17 +2,25 @@
   margin: 0;
 }
 body > nav {
-  margin-top: 1%;
+  margin-top: 0.5%;
   background-color: rgb(24, 34, 34);
-  text-align: center;
-  padding: 10px 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 }
 body > nav a {
+  padding: 10px 0;
+  text-align: center;
   text-decoration: none;
-  padding: 0 4%;
   font-size: 1.3rem;
   font-weight: bold;
   color: aliceblue;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+body > nav a:hover {
+  background-color: #093875;
+  color: darkorange;
 }
 /*for modifying the background image*/
 header::before {
