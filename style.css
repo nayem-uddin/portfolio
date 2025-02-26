@@ -183,7 +183,48 @@ main nav {
   font-family: "Courier New", Courier, monospace;
   font-weight: 900;
 }
-
+.certificates {
+  margin-left: 10px;
+  display: flex;
+}
+.cert {
+  margin: 10px 10px 0 0;
+  background-size: 100% 100%;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  cursor: pointer;
+}
+#cert1 {
+  background-image: url(ps-basic.jpg);
+}
+#cert2 {
+  background-image: url(sql-basic.jpg);
+}
+#cert3 {
+  background-image: url(sql-inter.jpg);
+}
+#cert4 {
+  background-image: url(se-intern.jpg);
+}
+.cert .text {
+  background-color: rgb(4, 4, 5);
+  text-align: center;
+  line-height: 2;
+  font-size: 1.2rem;
+  color: antiquewhite;
+  opacity: 0.8;
+  position: absolute;
+  top: 200px; /*fixes the bottom to the bottom of the image*/
+  height: 100px;
+  width: 100%;
+  transform-origin: 0 100%; /*transition starts from bottom*/
+  transition: transform 1s;
+  transform: scaleY(0); /*initially makes the height 0*/
+}
+.cert:hover .text {
+  transform: scaleY(1); /*achieves the original height*/
+}
 footer {
   box-sizing: border-box;
   padding: 20px 0 10px 50px;
