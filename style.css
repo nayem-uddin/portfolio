@@ -178,6 +178,8 @@ main nav {
   font-family: "Courier New", Courier, monospace;
   font-weight: 900;
 }
+
+/*certificates section starts*/
 .certificates {
   margin-left: 10px;
   display: grid;
@@ -223,6 +225,8 @@ main nav {
 .cert:hover .text {
   transform: scaleY(1); /*achieves the original height*/
 }
+/*certificates section ends*/
+
 footer {
   box-sizing: border-box;
   padding: 20px 0 10px 50px;
