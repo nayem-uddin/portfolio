@@ -39,11 +39,6 @@ header {
   height: 500px;
   position: relative;
 }
-header::after {
-  display: table;
-  content: "";
-  clear: both;
-}
 #header-txt {
   position: absolute;
   margin-top: 10%;
@@ -219,7 +214,7 @@ main nav {
   height: 100px;
   width: 100%;
   transform-origin: 0 100%; /*transition starts from bottom*/
-  transition: transform 1s;
+  transition: transform 0.5s;
   transform: scaleY(0); /*initially makes the height 0*/
 }
 .cert:hover .text {
