@@ -180,13 +180,13 @@ main nav {
 }
 .certificates {
   margin-left: 10px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
 }
 .cert {
   margin: 10px 10px 0 0;
   background-size: 100% 100%;
   position: relative;
-  width: 400px;
   height: 300px;
   cursor: pointer;
 }
@@ -201,6 +201,9 @@ main nav {
 }
 #cert4 {
   background-image: url(se-intern.jpg);
+}
+#cert5 {
+  background-image: url(ps-inter.png);
 }
 .cert .text {
   background-color: rgb(4, 4, 5);
