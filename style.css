@@ -227,6 +227,51 @@ main nav {
 }
 /*certificates section ends*/
 
+/*projects section starts*/
+#projects {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#projects::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.project {
+  float: left;
+  background-size: 100% 100%;
+  position: relative;
+  width: 32%;
+  height: 300px;
+  text-align: center;
+  margin: 10px 7px;
+  transition: 0.4s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.project:hover {
+  transform: scale(1.05);
+}
+.project h3 {
+  background-color: #221918;
+  color: white;
+  opacity: 0.9;
+  height: 80px;
+  transform: translateY(220px);
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+#login {
+  background-image: url(login.jpg);
+}
+#calculator {
+  background-image: url(calc.jpg);
+}
+#restaurant {
+  background-image: url(restaurant.jpg);
+}
+/*projects section ends*/
 footer {
   box-sizing: border-box;
   padding: 20px 0 10px 50px;

@@ -53,4 +53,8 @@
   .certificates {
     display: block;
   }
+  .project {
+    float: none;
+    width: 100%;
+  }
 }
