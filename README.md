@@ -1,2 +1,1 @@
-Visit my portfolio at  
-https://nayem-uddin.github.io/portfolio/
+Page URL: https://nayem-uddin.github.io/portfolio/
