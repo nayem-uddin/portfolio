@@ -262,7 +262,7 @@ main nav {
   box-sizing: border-box;
   font-size: 1.5rem;
 }
-#login {
+.login {
   background-image: url(login.jpg);
 }
 #calculator {
