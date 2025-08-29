@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
+import { Suspense } from "react";
+import { LinearProgress } from "@mui/material";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
+        <AppRouterCacheProvider>
+          <Suspense fallback={<LinearProgress />}>{children}</Suspense>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );
