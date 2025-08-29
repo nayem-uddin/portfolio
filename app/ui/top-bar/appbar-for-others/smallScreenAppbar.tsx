@@ -1,7 +1,7 @@
 "use client";
 import { Container, Toolbar } from "@mui/material";
 import MenuToggler from "./menuToggler";
-import { useDrawerState } from "@/app/lib/customHooks";
+import { useDrawerState } from "@/lib/customHooks";
 import MenuContainer from "./menuContainer";
 
 export default function SmallScreenAppBar() {

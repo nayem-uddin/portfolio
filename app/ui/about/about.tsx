@@ -1,10 +1,10 @@
+import Title from "../title";
 import Details from "./details";
-import Title from "./title";
 
 export default function About() {
   return (
-    <section>
-      <Title />
+    <section id="about">
+      <Title>About me</Title>
       <Details />
     </section>
   );

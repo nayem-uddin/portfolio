@@ -1,4 +1,4 @@
-import { links } from "@/app/lib/constants";
+import { links } from "@/lib/constants";
 import { Container, Toolbar } from "@mui/material";
 import NavLink from "./navLink";
 

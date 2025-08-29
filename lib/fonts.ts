@@ -1,4 +1,9 @@
-import { Bad_Script, Libre_Baskerville, Roboto } from "next/font/google";
+import {
+  Bad_Script,
+  Libre_Baskerville,
+  Roboto,
+  Roboto_Slab,
+} from "next/font/google";
 export const libre_busker = Libre_Baskerville({
   weight: ["700"],
   subsets: ["latin"],
@@ -11,4 +16,8 @@ export const roboto = Roboto({
 export const badScript = Bad_Script({
   weight: ["400"],
   subsets: ["latin"],
+});
+export const robotoSlab = Roboto_Slab({
+  subsets: ["latin"],
+  weight: ["500"],
 });

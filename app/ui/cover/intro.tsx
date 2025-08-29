@@ -1,4 +1,4 @@
-import { badScript, libre_busker, roboto } from "@/app/lib/fonts";
+import { badScript, libre_busker, roboto } from "@/lib/fonts";
 import CVDownload from "./cvDownload";
 
 export default function Intro() {

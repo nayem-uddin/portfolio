@@ -1,7 +1,7 @@
 import { Box, Drawer, List } from "@mui/material";
 import { Dispatch, SetStateAction } from "react";
 import CloseDrawer from "./menu-container-items/closeDrawer";
-import { links } from "@/app/lib/constants";
+import { links } from "@/lib/constants";
 import DrawerMenu from "./menu-container-items/drawerMenu";
 
 export default function MenuContainer({
