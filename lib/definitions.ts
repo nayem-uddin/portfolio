@@ -7,3 +7,7 @@ export interface DegreeDetails {
   description: string;
   logo: string;
 }
+export interface Skill {
+  logoURL: string;
+  name: string;
+}

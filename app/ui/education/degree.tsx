@@ -7,7 +7,7 @@ export default function Degree({ degree }: { degree: DegreeDetails }) {
   const { label, logo, description } = degree;
   return (
     <Step className="flex gap-x-3 items-center">
-      <div className="border-2 border-blue-900 rounded-full p-2 shrink-0">
+      <div className="border-2 border-blue-900 rounded-full p-2 shrink-0 shadow-lg shadow-blue-900">
         <Image src={logo} height={100} width={100} alt={logo} />
       </div>
       <div>
@@ -16,7 +16,9 @@ export default function Degree({ degree }: { degree: DegreeDetails }) {
         >
           {label}
         </p>
-        <p className="text-sm md:text-lg mt-1.5 md:mt-3">{description}</p>
+        <p className="text-sm md:text-lg mt-1.5 md:mt-3 text-balance">
+          {description}
+        </p>
       </div>
     </Step>
   );

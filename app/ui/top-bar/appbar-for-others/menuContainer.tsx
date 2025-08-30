@@ -20,7 +20,7 @@ export default function MenuContainer({
         <List disablePadding>
           <CloseDrawer setOpen={setOpen} />
           {links.map((menu) => (
-            <DrawerMenu key={menu.name} menu={menu} />
+            <DrawerMenu key={menu.name} menu={menu} handleClose={handleClose} />
           ))}
         </List>
       </Box>

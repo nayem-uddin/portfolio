@@ -6,7 +6,7 @@ import WideScreenAppBar from "./appbar-for-desktop/wideScreenAppBar";
 export default function Menubar() {
   return (
     <ElevationScroll>
-      <AppBar color="transparent" position="static">
+      <AppBar position="fixed">
         <SmallScreenAppBar />
         <WideScreenAppBar />
       </AppBar>

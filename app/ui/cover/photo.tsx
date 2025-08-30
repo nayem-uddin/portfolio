@@ -1,21 +1,21 @@
 import Image from "next/image";
-
+import photo from "@/public/photo-of-the-author.jpeg";
 export default function Photo() {
   return (
     <aside className="bg-white rounded-l-full overflow-hidden">
       <Image
-        src="/photo-of-the-author.jpeg"
+        src={photo}
         alt="photo of the author"
-        height={280}
-        width={280}
-        className="object-cover md:hidden"
+        height={250}
+        width={250}
+        className="md:hidden size-full"
       />
       <Image
-        src="/photo-of-the-author.jpeg"
+        src={photo}
         alt="photo of the author"
         height={500}
         width={450}
-        className="object-cover hidden md:block"
+        className="hidden md:block"
       />
     </aside>
   );

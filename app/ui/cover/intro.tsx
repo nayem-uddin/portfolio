@@ -16,7 +16,7 @@ export default function Intro() {
       </div>
       <div>
         <p
-          className={`text-2xl sm:text-4xl md:text-5xl lg:text-7xl ${libre_busker.className}`}
+          className={`text-xl sm:text-4xl md:text-5xl lg:text-7xl ${libre_busker.className}`}
         >
           Nayem Uddin Biswas
         </p>

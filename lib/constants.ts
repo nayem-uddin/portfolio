@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material";
-import { DegreeDetails, SectionLink } from "./definitions";
+import { DegreeDetails, SectionLink, Skill } from "./definitions";
 
 export const links: SectionLink[] = [
   {
@@ -12,7 +12,7 @@ export const links: SectionLink[] = [
   },
   {
     name: "Skills",
-    link: "#",
+    link: "#skills",
   },
   {
     name: "Portfolio",
@@ -43,5 +43,71 @@ export const steps: DegreeDetails[] = [
     label: "Secondary School Certificate",
     description: "A.K. School and College, 2016",
     logo: "/school.webp",
+  },
+];
+
+export const langNScripts: Skill[] = [
+  {
+    logoURL: "/html.png",
+    name: "HTML",
+  },
+  {
+    logoURL: "/css.png",
+    name: "CSS",
+  },
+  {
+    logoURL: "/javascript.png",
+    name: "JavaScript",
+  },
+  {
+    logoURL: "/typescript.png",
+    name: "TypeScript",
+  },
+];
+
+export const frontEnd: Skill[] = [
+  {
+    logoURL: "/nextjs.png",
+    name: "Next.js",
+  },
+  {
+    logoURL: "/react.png",
+    name: "React.js",
+  },
+  {
+    logoURL: "/tailwindcss.png",
+    name: "Tailwind CSS",
+  },
+  {
+    logoURL: "/mui.png",
+    name: "Material UI",
+  },
+  {
+    logoURL: "/bootstrap.png",
+    name: "Bootstrap",
+  },
+];
+export const backend: Skill[] = [
+  {
+    logoURL: "/node.png",
+    name: "Node.js",
+  },
+  {
+    logoURL: "/express.png",
+    name: "Express.js",
+  },
+  {
+    logoURL: "/sequelize.png",
+    name: "Sequelize",
+  },
+];
+export const dbms: Skill[] = [
+  {
+    logoURL: "/mysql.png",
+    name: "MySQL",
+  },
+  {
+    logoURL: "/postgresql.png",
+    name: "PostgreSQL",
   },
 ];

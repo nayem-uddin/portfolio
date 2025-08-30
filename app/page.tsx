@@ -8,6 +8,7 @@ import ScrollTop from "./ui/scrollTop";
 import { Fab } from "@mui/material";
 import { KeyboardArrowUp } from "@mui/icons-material";
 import Education from "./ui/education/education";
+import Skills from "./ui/skills/skills";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <main className="mt-3">
         <About />
         <Education />
+        <Skills />
       </main>
       <ScrollTop>
         <Fab size="small" aria-label="scroll back to top">
