@@ -9,6 +9,7 @@ import { Fab } from "@mui/material";
 import { KeyboardArrowUp } from "@mui/icons-material";
 import Education from "./ui/education/education";
 import Skills from "./ui/skills/skills";
+import Portfolio from "./ui/projects/portfolio";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
         <Education />
         <Skills />
+        <Portfolio />
       </main>
       <ScrollTop>
         <Fab size="small" aria-label="scroll back to top">

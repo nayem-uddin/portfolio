@@ -7,6 +7,7 @@ export default function NavLink({ menu }: { menu: SectionLink }) {
       href={menu.link}
       className="hover:text-cyan-300"
       aria-label={`Link to ${menu.name} section`}
+      prefetch
     >
       {menu.name}
     </Link>
