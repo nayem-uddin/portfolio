@@ -14,7 +14,7 @@ export default function Connect() {
       <Typography variant="subtitle1">
         Send your valuable review, suggestion or proposal.
       </Typography>
-      <form action={`mailto:${email}`}>
+      <form action={`mailto:${email}`} method="post" encType="text/plain">
         <fieldset className="gap-y-4 flex flex-col mt-4">
           <SenderName />
           <SenderEmail />
