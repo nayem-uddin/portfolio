@@ -6,3 +6,4 @@
 - TypeScript
 - Tailwind CSS
 - Material UI
+- shadcn/ui
