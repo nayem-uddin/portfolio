@@ -9,6 +9,7 @@ export default function Photo() {
         height={250}
         width={250}
         className="md:hidden size-full"
+        priority
       />
       <Image
         src={photo}
@@ -16,6 +17,7 @@ export default function Photo() {
         height={500}
         width={450}
         className="hidden md:block"
+        priority
       />
     </aside>
   );
