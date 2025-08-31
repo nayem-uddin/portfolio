@@ -4,7 +4,7 @@ import ProjectCard from "./projectCard";
 
 export default function Portfolio() {
   return (
-    <section id="portfolio" className="gap-y-5 grid mt-8">
+    <section id="portfolio" className="gap-y-5 grid mt-4">
       <Title>Portfolio</Title>
       <div className="flex flex-wrap justify-center gap-x-4">
         {portfolio.map((project) => (

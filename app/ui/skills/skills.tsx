@@ -6,7 +6,7 @@ import LanguagesAndScripts from "./langAndScripts";
 
 export default function Skills() {
   return (
-    <section id="skills" className="mt-8 md:mt-12">
+    <section id="skills" className="mt-8">
       <Title>Skills</Title>
       <LanguagesAndScripts />
       <FrontEnd />

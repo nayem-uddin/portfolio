@@ -9,7 +9,7 @@ export default function EducationDetails() {
       activeStep={steps.length - 1}
       orientation="vertical"
       connector={<Connector />}
-      className="m-auto w-fit mt-6"
+      className="m-auto w-fit mt-3"
     >
       {steps.map((step) => (
         <Degree key={step.label} degree={step} />

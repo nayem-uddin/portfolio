@@ -21,9 +21,9 @@ export default function Home() {
       </header>
       <main className="mt-3">
         <About />
-        <Education />
-        <Skills />
         <Portfolio />
+        <Skills />
+        <Education />
       </main>
       <footer>
         <Contact />
