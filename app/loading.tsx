@@ -1,9 +1,5 @@
-import { LinearProgress } from "@mui/material";
+import { CircularProgress } from "@mui/material";
 
 export default function Loading() {
-  return (
-    <div className="size-full grid place-items-center">
-      <LinearProgress />
-    </div>
-  );
+  return <CircularProgress className="absolute top-1/2 right-1/2" />;
 }

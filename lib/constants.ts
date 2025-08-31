@@ -7,16 +7,16 @@ export const links: NavigationLink[] = [
     link: "#about",
   },
   {
-    name: "Education",
-    link: "#education",
+    name: "Portfolio",
+    link: "#portfolio",
   },
   {
     name: "Skills",
     link: "#skills",
   },
   {
-    name: "Portfolio",
-    link: "#portfolio",
+    name: "Education",
+    link: "#education",
   },
   {
     name: "Contact",
