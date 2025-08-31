@@ -1,7 +1,7 @@
-import { SectionLink } from "@/lib/definitions";
+import { NavigationLink } from "@/lib/definitions";
 import Link from "next/link";
 
-export default function NavLink({ menu }: { menu: SectionLink }) {
+export default function NavLink({ menu }: { menu: NavigationLink }) {
   return (
     <Link
       href={menu.link}

@@ -1,11 +1,11 @@
-import { SectionLink } from "@/lib/definitions";
+import { NavigationLink } from "@/lib/definitions";
 import { ListItem, ListItemButton, ListItemText } from "@mui/material";
 
 export default function DrawerMenu({
   menu,
   handleClose,
 }: {
-  menu: SectionLink;
+  menu: NavigationLink;
   handleClose: VoidFunction;
 }) {
   return (
