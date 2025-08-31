@@ -204,7 +204,7 @@ export const portfolio: Project[] = [
 export const profiles: NavigationLink[] = [
   {
     name: "GitHub",
-    link: "https://github.com/nayem-uddin/portfolio",
+    link: "https://github.com/nayem-uddin",
   },
   {
     name: "LinkedIn",
