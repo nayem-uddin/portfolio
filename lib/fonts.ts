@@ -2,7 +2,6 @@ import {
   Bad_Script,
   IBM_Plex_Sans,
   Inter,
-  Libertinus_Serif,
   Libre_Baskerville,
   Lora,
   Noto_Serif,

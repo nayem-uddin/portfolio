@@ -1,4 +1,4 @@
-export interface SectionLink {
+export interface Link {
   name: string;
   link: string;
 }
@@ -18,4 +18,3 @@ export interface Project {
   backEndRepo?: string;
   cover: string;
 }
-export interface ProfileLink extends SectionLink {}

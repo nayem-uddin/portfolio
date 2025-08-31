@@ -1,13 +1,7 @@
 import { createTheme } from "@mui/material";
-import {
-  DegreeDetails,
-  ProfileLink,
-  Project,
-  SectionLink,
-  Skill,
-} from "./definitions";
+import { DegreeDetails, Link, Project, Skill } from "./definitions";
 
-export const links: SectionLink[] = [
+export const links: Link[] = [
   {
     name: "About",
     link: "#about",
@@ -207,7 +201,7 @@ export const portfolio: Project[] = [
     cover: "/calculator.png",
   },
 ];
-export const profiles: ProfileLink[] = [
+export const profiles: Link[] = [
   {
     name: "GitHub",
     link: "https://github.com/nayem-uddin/portfolio",
