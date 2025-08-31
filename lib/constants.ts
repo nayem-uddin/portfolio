@@ -1,5 +1,11 @@
 import { createTheme } from "@mui/material";
-import { DegreeDetails, Project, SectionLink, Skill } from "./definitions";
+import {
+  DegreeDetails,
+  ProfileLink,
+  Project,
+  SectionLink,
+  Skill,
+} from "./definitions";
 
 export const links: SectionLink[] = [
   {
@@ -20,7 +26,7 @@ export const links: SectionLink[] = [
   },
   {
     name: "Contact",
-    link: "#",
+    link: "#contact",
   },
 ];
 export const theme = createTheme({
@@ -201,3 +207,14 @@ export const portfolio: Project[] = [
     cover: "/calculator.png",
   },
 ];
+export const profiles: ProfileLink[] = [
+  {
+    name: "GitHub",
+    link: "https://github.com/nayem-uddin/portfolio",
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/md-nayem-uddin-biswas",
+  },
+];
+export const email: string = "mnubpial@gmail.com";

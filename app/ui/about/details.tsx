@@ -1,6 +1,10 @@
+import { ibmPlexSans } from "@/lib/fonts";
+
 export default function Details() {
   return (
-    <p className="p-4 text-justify md:text-lg lg:text-xl lg:leading-8">
+    <p
+      className={`p-4 text-justify md:text-lg lg:text-xl lg:leading-8 ${ibmPlexSans.className}`}
+    >
       I am Nayem Uddin Biswas, a dedicated and result-driven full-stack
       developer from Narayanganj, Bangladesh. I build responsive,
       performance-optimized, and user-friendly UIs using modern UI libraries and

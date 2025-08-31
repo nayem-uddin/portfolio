@@ -8,7 +8,7 @@ export default function SkillCard({
   name: string;
 }) {
   return (
-    <Card className="mt-2 h-fit w-35 md:w-50">
+    <Card className="mt-2 h-fit w-35 md:w-45">
       <CardContent>
         <CardMedia
           component={`img`}

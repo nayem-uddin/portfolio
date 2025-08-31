@@ -18,3 +18,4 @@ export interface Project {
   backEndRepo?: string;
   cover: string;
 }
+export interface ProfileLink extends SectionLink {}

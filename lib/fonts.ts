@@ -1,6 +1,10 @@
 import {
   Bad_Script,
+  IBM_Plex_Sans,
+  Inter,
+  Libertinus_Serif,
   Libre_Baskerville,
+  Lora,
   Noto_Serif,
   Roboto,
   Roboto_Slab,
@@ -24,5 +28,17 @@ export const robotoSlab = Roboto_Slab({
 });
 export const notoSerif = Noto_Serif({
   weight: ["400"],
+  subsets: ["latin"],
+});
+export const lora = Lora({
+  weight: ["600", "700"],
+  subsets: ["latin"],
+});
+export const inter = Inter({
+  weight: ["400"],
+  subsets: ["latin"],
+});
+export const ibmPlexSans = IBM_Plex_Sans({
+  weight: ["300"],
   subsets: ["latin"],
 });
