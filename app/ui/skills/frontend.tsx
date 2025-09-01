@@ -6,7 +6,7 @@ export default function FrontEnd() {
   return (
     <Row>
       {frontEnd.map((skill) => (
-        <SkillCard key={skill.name} {...skill} />
+        <SkillCard key={skill.name} skill={skill} />
       ))}
     </Row>
   );

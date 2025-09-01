@@ -6,7 +6,7 @@ export default function LanguagesAndScripts() {
   return (
     <Row>
       {langNScripts.map((skill) => (
-        <SkillCard key={skill.name} {...skill} />
+        <SkillCard key={skill.name} skill={skill} />
       ))}
     </Row>
   );
