@@ -1,6 +1,6 @@
 "use client";
 import Menubar from "./ui/top-bar/menubar";
-import { theme } from "../lib/constants";
+
 import { NextAppProvider } from "@toolpad/core/nextjs";
 import Cover from "./ui/cover/cover";
 import About from "./ui/about/about";
@@ -11,6 +11,7 @@ import Education from "./ui/education/education";
 import Skills from "./ui/skills/skills";
 import Portfolio from "./ui/projects/portfolio";
 import Contact from "./ui/contact/contact";
+import { theme } from "@/lib/theme";
 
 export default function Home() {
   return (
