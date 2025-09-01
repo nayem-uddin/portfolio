@@ -5,6 +5,12 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "Portfolio of Nayem Uddin Biswas",
+  metadataBase: new URL("https://portfolio-mu-six-31.vercel.app"),
+  openGraph: {
+    title: "Portfolio",
+    description: "Portfolio of Nayem Uddin Biswas",
+    images: "/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({
