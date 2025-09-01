@@ -5,7 +5,7 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "Portfolio of Nayem Uddin Biswas",
-  metadataBase: new URL("https://nayem-portfolio-test.netlify.app"),
+  metadataBase: new URL(process.env.DEPLOY_URL || "http://localhost:3000"),
 };
 
 export default function RootLayout({
