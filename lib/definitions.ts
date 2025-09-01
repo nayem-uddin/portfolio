@@ -10,6 +10,7 @@ export interface DegreeDetails {
 export interface Skill {
   logoURL: string;
   name: string;
+  level: number;
 }
 export interface Project {
   title: string;
