@@ -1,4 +1,3 @@
-import { createTheme } from "@mui/material";
 import { DegreeDetails, NavigationLink, Project, Skill } from "./definitions";
 
 export const links: NavigationLink[] = [
@@ -23,11 +22,7 @@ export const links: NavigationLink[] = [
     link: "#contact",
   },
 ];
-export const theme = createTheme({
-  palette: {
-    mode: "dark",
-  },
-});
+
 export const steps: DegreeDetails[] = [
   {
     label: "B.Sc. in Mechatronics Engineering",
