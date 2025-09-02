@@ -1,7 +1,7 @@
 import { Box, Drawer, List } from "@mui/material";
 import { Dispatch, SetStateAction } from "react";
 import CloseDrawer from "./menu-container-items/closeDrawer";
-import { links } from "@/lib/constants/education";
+import { sectionLinks } from "@/lib/constants/links";
 import DrawerMenu from "./menu-container-items/drawerMenu";
 
 export default function MenuContainer({
@@ -19,7 +19,7 @@ export default function MenuContainer({
       <Box sx={{ width: "150px" }}>
         <List disablePadding>
           <CloseDrawer setOpen={setOpen} />
-          {links.map((menu) => (
+          {sectionLinks.map((menu) => (
             <DrawerMenu key={menu.name} menu={menu} handleClose={handleClose} />
           ))}
         </List>

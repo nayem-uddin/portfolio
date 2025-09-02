@@ -1,6 +1,6 @@
 import { Container, Typography } from "@mui/material";
 import Headline from "../headline";
-import { email } from "@/lib/constants/education";
+import { email } from "@/lib/constants/contact";
 import SenderName from "./senderName";
 import SenderEmail from "./senderEmail";
 import Content from "./content";
