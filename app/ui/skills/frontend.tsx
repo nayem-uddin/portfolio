@@ -1,4 +1,4 @@
-import { frontEnd } from "@/lib/constants";
+import { frontEnd } from "@/lib/constants/skills";
 import Row from "./row";
 import SkillCard from "./skillCard";
 

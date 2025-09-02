@@ -1,7 +1,7 @@
 import { Email } from "@mui/icons-material";
 import InfoContainer from "../infoContainer";
 import Link from "next/link";
-import { email } from "@/lib/constants";
+import { email } from "@/lib/constants/contact";
 
 export default function EmailAddress() {
   return (

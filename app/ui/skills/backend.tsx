@@ -1,4 +1,4 @@
-import { backend } from "@/lib/constants";
+import { backend } from "@/lib/constants/skills";
 import Row from "./row";
 import SkillCard from "./skillCard";
 

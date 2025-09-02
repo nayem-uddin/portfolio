@@ -1,4 +1,4 @@
-import { portfolio } from "@/lib/constants";
+import { portfolio } from "@/lib/constants/portfolio";
 import Title from "../title";
 import ProjectCard from "./projectCard";
 

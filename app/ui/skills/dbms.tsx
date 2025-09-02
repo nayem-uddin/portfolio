@@ -1,4 +1,4 @@
-import { dbms } from "@/lib/constants";
+import { dbms } from "@/lib/constants/skills";
 import Row from "./row";
 import SkillCard from "./skillCard";
 

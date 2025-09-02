@@ -1,7 +1,7 @@
-import { profiles } from "@/lib/constants";
 import Link from "next/link";
 import Headline from "./headline";
 import { Container } from "@mui/material";
+import { profiles } from "@/lib/constants/links";
 
 export default function Profiles() {
   return (
