@@ -1,3 +1,4 @@
+"use client";
 import { Fade, useScrollTrigger } from "@mui/material";
 import { MouseEvent, ReactNode } from "react";
 
