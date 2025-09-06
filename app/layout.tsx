@@ -3,6 +3,7 @@ import "./globals.css";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import Wrapper from "./ui/themeProvider";
 import { Suspense } from "react";
+import Loading from "./loading";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <Suspense>
+        <Suspense fallback={<Loading />}>
           <AppRouterCacheProvider>
             <Wrapper>{children}</Wrapper>
           </AppRouterCacheProvider>
