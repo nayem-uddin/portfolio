@@ -1,4 +1,5 @@
-import { Project } from "../definitions";
+import { Project, ToggleOption } from "../definitions";
+import { countProjectType } from "../utils";
 
 export const portfolio: Project[] = [
   {
@@ -10,6 +11,7 @@ export const portfolio: Project[] = [
     showcase apps.`,
     frontEndRepo: "https://github.com/nayem-uddin/itransition-task-5.git",
     cover: "/bookshowcase.png",
+    type: "frontEnd",
   },
   {
     title: "A presentation builder",
@@ -22,6 +24,7 @@ export const portfolio: Project[] = [
     backEndRepo:
       "https://github.com/nayem-uddin/itransition-task-6-backend.git",
     cover: "/slidebuilder.png",
+    type: "fullStack",
   },
   {
     title: "A cloud-based survey app",
@@ -40,6 +43,7 @@ export const portfolio: Project[] = [
     frontEndRepo: `https://github.com/nayem-uddin/itransition-project-frontend.git`,
     backEndRepo: `https://github.com/nayem-uddin/itransition-project-backend.git`,
     cover: `/form.png`,
+    type: "fullStack",
   },
   {
     title: "A static authenticator web app",
@@ -51,6 +55,7 @@ export const portfolio: Project[] = [
     dashboard. After that, they are sent an email with an OTP which they need to put on the UI to verify their identity. After successful
     identity verification, they are allowed to change their password, and then they can either continue the running session or log out and
     start a new session.`,
+    type: "frontEnd",
   },
 
   {
@@ -59,6 +64,7 @@ export const portfolio: Project[] = [
     This app fetches the queried recipes using a third-party API.`,
     frontEndRepo: "https://github.com/nayem-uddin/find-recipe.git",
     cover: "/recipefinder.png",
+    type: "frontEnd",
   },
   {
     title: "A todos manager app",
@@ -67,12 +73,14 @@ export const portfolio: Project[] = [
     add new todos, mark existing todos as complete/to-do, and delete todos. This is a demo app, and so no data is stored permanently 
     in this app.`,
     cover: "/todo.png",
+    type: "frontEnd",
   },
   {
     title: "A restaurant webpage",
     frontEndRepo: "https://github.com/nayem-uddin/restaurant.git",
     description: `A static and responsive demo restaurant webpage built with HTML and CSS.`,
     cover: "/restaurant.png",
+    type: "frontEnd",
   },
   {
     title: "A login and signup system",
@@ -82,11 +90,26 @@ export const portfolio: Project[] = [
     description:
       "A basic user login and signup system having an UI built with HTML and CSS and a REST API built with Flask.",
     cover: "/login.png",
+    type: "fullStack",
   },
   {
     title: "A simple online calculator",
     description: `A simple calculator built with HTML, CSS, and JavaScript. This calculator can perform simple arithmetic operations only.`,
     frontEndRepo: "https://github.com/nayem-uddin/simple-calculator.git",
     cover: "/calculator.png",
+    type: "frontEnd",
+  },
+];
+export const toggleOptions: ToggleOption[] = [
+  { label: "All", value: "all", count: portfolio.length },
+  {
+    label: "Full-stack",
+    value: "fullStack",
+    count: countProjectType("fullStack", portfolio),
+  },
+  {
+    label: "Front-end",
+    value: "frontEnd",
+    count: countProjectType("frontEnd", portfolio),
   },
 ];

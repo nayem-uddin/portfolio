@@ -18,4 +18,11 @@ export interface Project {
   frontEndRepo: string;
   backEndRepo?: string;
   cover: string;
+  type: "fullStack" | "frontEnd";
+}
+
+export interface ToggleOption {
+  label: string;
+  value: string;
+  count: number;
 }

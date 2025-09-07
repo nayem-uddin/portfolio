@@ -1,16 +1,19 @@
-import { portfolio } from "@/lib/constants/portfolio";
+"use client";
 import Title from "../title";
-import ProjectCard from "./projectCard";
+import { useProjectType } from "@/lib/customHooks";
+import FilterProjects from "./filterProjects";
+import Showcase from "./showcase";
 
 export default function Portfolio() {
+  const { projectType, setProjectType } = useProjectType();
   return (
     <section id="portfolio" className="gap-y-5 grid mt-4">
       <Title>Portfolio</Title>
-      <div className="flex flex-wrap justify-center gap-x-4">
-        {portfolio.map((project) => (
-          <ProjectCard key={project.title} project={project} />
-        ))}
-      </div>
+      <FilterProjects
+        setProjectType={setProjectType}
+        projectType={projectType}
+      />
+      <Showcase type={projectType} />
     </section>
   );
 }
