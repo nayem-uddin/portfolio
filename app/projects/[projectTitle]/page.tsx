@@ -6,7 +6,7 @@ import TechStack from "@/app/ui/project-details/techStack";
 import { getProjectDetails } from "@/lib/utils";
 import { Metadata } from "next";
 
-type Props = {
+export type Props = {
   params: Promise<{ projectTitle: string }>;
 };
 
