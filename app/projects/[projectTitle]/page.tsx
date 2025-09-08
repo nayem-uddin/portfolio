@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    metadataBase: new URL(process.env.DEPLOY_URL || "http://localhost:3000"),
   };
 }
 
