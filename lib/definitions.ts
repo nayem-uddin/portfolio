@@ -15,10 +15,10 @@ export interface Skill {
 export interface Project {
   title: string;
   description: string;
-  frontEndRepo: string;
-  backEndRepo?: string;
+  repoLinks: RepoLink;
   cover: string;
   type: "fullStack" | "frontEnd";
+  techStack: string[];
 }
 
 export interface ToggleOption {
@@ -26,3 +26,8 @@ export interface ToggleOption {
   value: string;
   count: number;
 }
+
+export type RepoLink = {
+  frontEndRepo?: string;
+  backEndRepo?: string;
+};

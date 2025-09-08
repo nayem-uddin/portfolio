@@ -5,6 +5,8 @@ import {
   Libre_Baskerville,
   Lora,
   Noto_Serif,
+  Open_Sans,
+  Poppins,
   Roboto,
   Roboto_Slab,
 } from "next/font/google";
@@ -39,5 +41,15 @@ export const inter = Inter({
 });
 export const ibmPlexSans = IBM_Plex_Sans({
   weight: ["300"],
+  subsets: ["latin"],
+});
+
+export const openSans = Open_Sans({
+  weight: ["600"],
+  subsets: ["latin"],
+});
+
+export const poppins = Poppins({
+  weight: ["500"],
   subsets: ["latin"],
 });

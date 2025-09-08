@@ -9,9 +9,19 @@ export const portfolio: Project[] = [
     It displays books based on the language, likes, reviews, and random books based on the seed value provided. In this app, the user can know 
     about the details of a book clicking on the accordion. Although the book data used here aren't real, the layout can inspire real book 
     showcase apps.`,
-    frontEndRepo: "https://github.com/nayem-uddin/itransition-task-5.git",
+    repoLinks: {
+      frontEndRepo: "https://github.com/nayem-uddin/itransition-task-5.git",
+    },
     cover: "/bookshowcase.png",
     type: "frontEnd",
+    techStack: [
+      "React.js",
+      "CSS",
+      "Bootstrap",
+      "Faker.js",
+      "React-CSV",
+      "Fabric",
+    ],
   },
   {
     title: "A presentation builder",
@@ -19,12 +29,27 @@ export const portfolio: Project[] = [
     implement the features, like presentation mode, markdown-supported resizable and draggable textboxes, etc., some third-party 
     libraries (e.g., Spectacle, React RND, React Markdown, etc.) are used. The app can display the real-time changes made on a 
     slide using Socket.IO. The slide data, user details, and other information are stored in a MySQL database.`,
-    frontEndRepo:
-      "https://github.com/nayem-uddin/itransition-task-6-frontend.git",
-    backEndRepo:
-      "https://github.com/nayem-uddin/itransition-task-6-backend.git",
+    repoLinks: {
+      frontEndRepo:
+        "https://github.com/nayem-uddin/itransition-task-6-frontend.git",
+      backEndRepo:
+        "https://github.com/nayem-uddin/itransition-task-6-backend.git",
+    },
     cover: "/slidebuilder.png",
     type: "fullStack",
+    techStack: [
+      "React.js",
+      "CSS",
+      "Bootstrap",
+      "Spectacle",
+      "React RND",
+      "React Markdown",
+      "React Hook Form",
+      "Socket.IO",
+      "Express.js",
+      "Sequelize",
+      "MySQL",
+    ],
   },
   {
     title: "A cloud-based survey app",
@@ -40,14 +65,36 @@ export const portfolio: Project[] = [
     the REST API development, and for database management, Sequelize is used, with the MySQL dialect. In addition, this app is integrated with 
     Salesforce and Google Dropbox to store the data of the users interested to use other services and to store reports of the users facing issues 
     using the app, respectively.`,
-    frontEndRepo: `https://github.com/nayem-uddin/itransition-project-frontend.git`,
-    backEndRepo: `https://github.com/nayem-uddin/itransition-project-backend.git`,
+    repoLinks: {
+      frontEndRepo: `https://github.com/nayem-uddin/itransition-project-frontend.git`,
+      backEndRepo: `https://github.com/nayem-uddin/itransition-project-backend.git`,
+    },
     cover: `/form.png`,
     type: "fullStack",
+    techStack: [
+      "React.js",
+      "CSS",
+      "Bootstrap",
+      "Material UI",
+      "Fuse.js",
+      "React-RND",
+      "React-Markdown",
+      "React Hook Form",
+      "Socket.IO",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "Sequelize",
+      "MySQL",
+      "Salesforce API",
+      "Google Dropbox API",
+    ],
   },
   {
     title: "A static authenticator web app",
-    frontEndRepo: "https://github.com/nayem-uddin/static-auth-webapp.git",
+    repoLinks: {
+      frontEndRepo: "https://github.com/nayem-uddin/static-auth-webapp.git",
+    },
     cover: "/auth.png",
     description: `A static web app integrated with an external API for creating and handling user profiles. The UI of this app is built with 
     Next.js, Tailwind CSS, and Material UI. When the user logs in, the user data is extracted from a JavaScript Web Token (JWT) received from
@@ -56,48 +103,64 @@ export const portfolio: Project[] = [
     identity verification, they are allowed to change their password, and then they can either continue the running session or log out and
     start a new session.`,
     type: "frontEnd",
+    techStack: ["Next.js", "Tailwind CSS", "Material UI", "jwt-decode"],
   },
 
   {
     title: "A recipe finder app",
     description: `A basic recipe finder web app built with React.js and CSS. It can display recipes based on the search of the user. 
     This app fetches the queried recipes using a third-party API.`,
-    frontEndRepo: "https://github.com/nayem-uddin/find-recipe.git",
+    repoLinks: {
+      frontEndRepo: "https://github.com/nayem-uddin/find-recipe.git",
+    },
     cover: "/recipefinder.png",
     type: "frontEnd",
+    techStack: ["React.js", "CSS"],
   },
   {
     title: "A todos manager app",
-    frontEndRepo: "https://github.com/nayem-uddin/Todo-app.git",
+    repoLinks: {
+      frontEndRepo: "https://github.com/nayem-uddin/Todo-app.git",
+    },
     description: `A todos manager web app built with React, CSS, and Bootstrap. Using this app, a user can manage their todos i.e.,
     add new todos, mark existing todos as complete/to-do, and delete todos. This is a demo app, and so no data is stored permanently 
     in this app.`,
     cover: "/todo.png",
     type: "frontEnd",
+    techStack: ["React.js", "CSS", "Bootstrap"],
   },
   {
     title: "A restaurant webpage",
-    frontEndRepo: "https://github.com/nayem-uddin/restaurant.git",
+    repoLinks: {
+      frontEndRepo: "https://github.com/nayem-uddin/restaurant.git",
+    },
     description: `A static and responsive demo restaurant webpage built with HTML and CSS.`,
     cover: "/restaurant.png",
     type: "frontEnd",
+    techStack: ["HTML", "CSS"],
   },
   {
     title: "A login and signup system",
-    frontEndRepo:
-      "https://github.com/nayem-uddin/API-based-login-and-signup-system.git",
-    backEndRepo: "https://github.com/nayem-uddin/api.git",
+    repoLinks: {
+      frontEndRepo:
+        "https://github.com/nayem-uddin/API-based-login-and-signup-system.git",
+      backEndRepo: "https://github.com/nayem-uddin/api.git",
+    },
     description:
       "A basic user login and signup system having an UI built with HTML and CSS and a REST API built with Flask.",
     cover: "/login.png",
     type: "fullStack",
+    techStack: ["HTML", "CSS", "Flask", "MySQL"],
   },
   {
     title: "A simple online calculator",
     description: `A simple calculator built with HTML, CSS, and JavaScript. This calculator can perform simple arithmetic operations only.`,
-    frontEndRepo: "https://github.com/nayem-uddin/simple-calculator.git",
+    repoLinks: {
+      frontEndRepo: "https://github.com/nayem-uddin/simple-calculator.git",
+    },
     cover: "/calculator.png",
     type: "frontEnd",
+    techStack: ["HTML", "CSS", "JavaScript"],
   },
 ];
 export const toggleOptions: ToggleOption[] = [
