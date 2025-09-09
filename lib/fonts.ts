@@ -4,6 +4,7 @@ import {
   Inter,
   Libre_Baskerville,
   Lora,
+  Noto_Sans_Multani,
   Noto_Serif,
   Open_Sans,
   Poppins,
@@ -51,5 +52,10 @@ export const openSans = Open_Sans({
 
 export const poppins = Poppins({
   weight: ["500"],
+  subsets: ["latin"],
+});
+
+export const notoSansMultani = Noto_Sans_Multani({
+  weight: ["400"],
   subsets: ["latin"],
 });
