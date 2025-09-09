@@ -16,7 +16,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    metadataBase: new URL(process.env.DEPLOY_URL || "http://localhost:3000"),
+    metadataBase: new URL(
+      process.env.DEPLOY_URL || process.env.TEST_URL || "http://localhost:3000"
+    ),
     openGraph: {
       images: cover ? cover : undefined,
     },
