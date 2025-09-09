@@ -13,14 +13,16 @@ export default function Details() {
       <Tech>Bootstrap</Tech>, <Tech>Tailwind CSS</Tech>,{" "}
       <Tech>Material UI</Tech>, and <Tech>shadcn/ui</Tech>. In addition, I have
       internship experience in developing backend servers with the abilities to
-      perform secure cross-platform data exchange using Node.js, Express.js,
-      Sequelize, and Socket.IO. I have hands-on experience in MySQL, and
-      currently, I am learning PostgreSQL. Since the beginning of my web
-      development journey, I have been working with JavaScript. But, as an
-      attempt to get used to the latest web technologies, I have started
-      learning about and working with TypeScript. Besides, I try to follow the
-      best practices and principles of software development, including SOLID
-      principles, to ensure the scalability and modularity of the web projects.
+      perform secure cross-platform data exchange using <Tech>Node.js</Tech>,{" "}
+      <Tech>Express.js</Tech>,<Tech>Sequelize</Tech>, and <Tech>Socket.IO</Tech>
+      . I have hands-on experience in <Tech>MySQL</Tech>, and currently, I am
+      learning <Tech>PostgreSQL</Tech>. Since the beginning of my web
+      development journey, I have been working with <Tech>JavaScript</Tech>.
+      But, as an attempt to get used to the latest web technologies, I have
+      started learning about and working with <Tech>TypeScript</Tech>. Besides,
+      I try to follow the best practices and principles of software development,
+      including <Tech>SOLID principles</Tech>, to ensure the scalability and
+      modularity of the web projects.
     </p>
   );
 }
