@@ -12,11 +12,14 @@ export type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { projectTitle } = await params;
-  const { title, description } = getProjectDetails(projectTitle) || {};
+  const { title, description, cover } = getProjectDetails(projectTitle) || {};
   return {
     title,
     description,
     metadataBase: new URL(process.env.DEPLOY_URL || "http://localhost:3000"),
+    openGraph: {
+      images: cover ? cover : undefined,
+    },
   };
 }
 
