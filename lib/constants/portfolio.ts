@@ -96,7 +96,7 @@ export const portfolio: Project[] = [
     cover: "/auth.png",
     description:
       "A static web app integrated with an external API for creating and handling user profiles. " +
-      "When the user logs in, the user data is extracted from a JavaScript Web Token (JWT) received from " +
+      "When the user logs in, the user data is extracted from a JSON Web Token (JWT) received from " +
       "the API and displayed on the user dashboard. In addition, if the user wants to change the login password, they can make a request from their " +
       "dashboard. After that, they are sent an email with an OTP which they need to put on the UI to verify their identity. After successful " +
       "identity verification, they are allowed to change their password, and then they can either continue the running session or log out and " +
