@@ -147,8 +147,9 @@ export const portfolio: Project[] = [
       backEndRepo: "https://github.com/nayem-uddin/user-auth-system-api.git",
     },
     description:
-      "A basic user login and signup system. In this app, the user can only log in or sign up, but cannot update their profile details. " +
-      "To prevent the backend server from spinning down due to inactivity, cron-job console is used.",
+      "A basic user login and signup system. In this app, the user can log in, sign up, and update their profile details on the " +
+      "dashboard. To prevent the backend server from spinning down due to inactivity, cron-job console is used. For secure data " +
+      "exchange, JSON Web Token (JWT) is used; to reduce the size of the response body, gzip is used.",
     cover: "/login.png",
     type: "fullStack",
     techStack: [
