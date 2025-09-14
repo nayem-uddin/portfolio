@@ -124,8 +124,8 @@ export const portfolio: Project[] = [
     },
     description:
       "A todos manager web app using which a user can manage their todos i.e., " +
-      "add new todos, mark existing todos as complete/to-do, and delete todos. This is a demo app, and so no data is stored permanently " +
-      "in this app.",
+      "add new todos, mark existing todos as complete/to-do, and delete todos. The data is stored " +
+      "in the local storage of the browser.",
     cover: "/todo.png",
     type: "frontEnd",
     techStack: ["React.js", "CSS", "Bootstrap"],
@@ -143,15 +143,26 @@ export const portfolio: Project[] = [
   {
     title: "A login and signup system",
     repoLinks: {
-      frontEndRepo:
-        "https://github.com/nayem-uddin/API-based-login-and-signup-system.git",
-      backEndRepo: "https://github.com/nayem-uddin/api.git",
+      frontEndRepo: "https://github.com/nayem-uddin/user-auth-system-ui.git",
+      backEndRepo: "https://github.com/nayem-uddin/user-auth-system-api.git",
     },
     description:
-      "A basic user login and signup system. In this app, the user can only log in or sign up, but cannot update their profile details.",
+      "A basic user login and signup system. In this app, the user can only log in or sign up, but cannot update their profile details. " +
+      "To prevent the backend server from spinning down due to inactivity, cron-job console is used.",
     cover: "/login.png",
     type: "fullStack",
-    techStack: ["HTML", "CSS", "Flask", "MySQL"],
+    techStack: [
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "JavaScript",
+      "PostgreSQL",
+      "Node.js",
+      "Express.js",
+      "Sequelize",
+      "Cron-job",
+    ],
   },
   {
     title: "A simple online calculator",
