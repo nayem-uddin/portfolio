@@ -104,7 +104,33 @@ export const portfolio: Project[] = [
     type: "frontEnd",
     techStack: ["Next.js", "Tailwind CSS", "Material UI", "jwt-decode"],
   },
-
+  {
+    title: "A task manager app",
+    repoLinks: {
+      frontEndRepo: "https://github.com/nayem-uddin/todo-app-ui.git",
+      backEndRepo: "https://github.com/nayem-uddin/todo-app-backend.git",
+    },
+    description:
+      "A task manager web app using where a user can manage their todos i.e., " +
+      "add new todos, edit existing todos, and delete todos. " +
+      "In the front-end, caching is used for faster data fetch and display; in the backend, gzip is used to reduce the size of the " +
+      "response body. Both of these optimized the performance of the web app.",
+    cover: "/todo.png",
+    type: "fullStack",
+    techStack: [
+      "TypeScript",
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "Material UI",
+      "shadcn ui",
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "Sequelize",
+      "PostgreSQL",
+    ],
+  },
   {
     title: "A recipe finder app",
     description:
@@ -117,19 +143,7 @@ export const portfolio: Project[] = [
     type: "frontEnd",
     techStack: ["React.js", "CSS"],
   },
-  {
-    title: "A todos manager app",
-    repoLinks: {
-      frontEndRepo: "https://github.com/nayem-uddin/Todo-app.git",
-    },
-    description:
-      "A todos manager web app using which a user can manage their todos i.e., " +
-      "add new todos, mark existing todos as complete/to-do, and delete todos. The data is stored " +
-      "in the local storage of the browser.",
-    cover: "/todo.png",
-    type: "frontEnd",
-    techStack: ["React.js", "CSS", "Bootstrap"],
-  },
+
   {
     title: "A restaurant webpage",
     repoLinks: {
